@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styles/globalStyles.css" />
+    <link rel="stylesheet" href="/pages/home/index.css" />
+    <link rel="stylesheet" href="/styles/buttons.css">
+    <link rel="stylesheet" href="/styles/input.css">
+    <title>Open Music</title>
+  </head>
+  <body>
+    <header>
+      <menu class="container menu">
+        <h1 class="logo">open music</h1>
+        <button class="mode-btn">
+          <img src="/assets/img/moon.png" alt="mode image" class="mode-btn-img" />
+        </button>
+      </menu>
+    </header>
+    <main class="container main">
+      <section class="genrer-wrapper">
+        <h3 class="genrer-title">Gênero Musical</h3>
+        <nav>
+          <ul class="genrer-type-wrapper"></ul>
+        </nav>
+      </section>
+      <section class="value-wrapper">
+        <span class="value-desc">
+          <p class="value-title">Definir preço</p>
+          <p class="value-max"></p>
+        </span>
+        <input type="range" class="input-range" min="0">
+        <div class="slider"></div>
+      </section>
+      <section class="records-wrapper">
+        <h3 class="records-title">Albuns Encontrados</h3>
+        <ul class="records"></ul>
+      </section>
+    </main>
+    <script src="/pages/home/productsData.js"></script>
+    <script src="/pages/home/index.js"></script>
+    <script src="/scripts/darkMode.js"></script>
+  </body>
+</html>

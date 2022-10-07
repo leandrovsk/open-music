@@ -1,0 +1,29 @@
+.mode-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  cursor: pointer;
+  border: none;
+  background-color: var(--color-5);
+  border-radius: var(--radius-1);
+  border: 1px solid var(--color-5);
+}
+
+.mode-btn-img {
+  width: 16px;
+}
+
+.record-buy-btn {
+  background-color: var(--color-9);
+  padding: 0 8px;
+  height: 32px;
+  border: none;
+  border-radius: var(--radius-1);
+  color: var(--color-7);
+  font-weight: var(--font-weight-2);
+  font-size: var(--font-3);
+  cursor: pointer;
+  transition: 0.3s ease;
+}

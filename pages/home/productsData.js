@@ -19,7 +19,7 @@ const products = [
   },
   {
     title: "Nirvana Discografia",
-    category: 3,
+    category: 8,
     price: 50.0,
     img: "../../assets/img/3.jpg",
     band: "Nirvava",

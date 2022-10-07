@@ -4,38 +4,63 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: inherit;
+  list-style: none;
 }
 
 :root {
   --color-brand-1:#9747ff;
-  --color-grey-0: #15171a;
-  --color-grey-1: #212529;
-  --color-grey-2: #2b2f33;
-  --color-grey-3: #868e96;
-  --color-grey-4: #adb5bd;
-  --color-grey-5: #ced4da;
-  --color-grey-6: #dee2e6;
-  --color-grey-7: #f1f3f5;
-  --color-grey-8: #f8f9fa;
-  --color-grey-9: #fdfeff;
+  --color-0:#fdfeff; /*Background*/
+  --color-1:#212529; /*Open Music*/ /*record-name*/ /*record-price*/
+  --color-2:#212529; /*selected gender border*/ /*value title*/ /*records title*/
+  --color-3:#212529;  /*selected gender background*/
+  --color-4:#f8f9fa; /*selected gender text color*/
+  --color-5:#f8f9fa; /*genrer background*/
+  --color-6:#2b2f33; /*genrer text*/ /*value title*/ /*band-desc*/
+  --color-7:#2b2f33; /*buy btn*/
+  --color-8:#ced4da;
+  --color-9:#f1f3f5;
+ 
 
   --color-disable-fixed: #212529;
   --color-actived-fixed: #2b2f33;
   --color-white-fixed: #ffffff;
 
+  --font-weight-1: 600;
+  --font-weight-2: 500;
+
   --font-1: 1.75rem;
   --font-2: 1rem;
   --font-3: 0.875rem;
+  --font-4: 0.75rem;
 
   --radius-1: 0.25rem;
   --container: 45rem;
+}
+
+.dark-mode:root {
+  --color-brand-1:#9747ff;
+  --color-0:#15171a;  /*Background*/
+  --color-1:#f8f9fa; /*Open Music*/ /*record-name*/ /*record-price*/
+  --color-2:#adb5bd; /*selected gender border*/ /*value title*/ /*records title*/
+  --color-3:#2b2f33; /*selected gender background*/
+  --color-4:#fdfeff;/*selected gender text color*/
+  --color-5:#212529; /*genrer background*/ 
+  --color-6:#868e96; /*genrer text*/ /*value max*/ /*band-desc*/
+  --color-7:#ced4da; /*buy btn*/
+  --color-8:#212529;
+  --color-9:#2b2f33;
+ 
+  --color-disable-fixed: #212529;
+  --color-actived-fixed: #2b2f33;
+  --color-white-fixed: #ffffff;
 }
 
 body {
   font-family: "Inter", sans-serif;
   font-style: normal;
   -webkit-font-smoothing: antialiased;
-  background-color: var(--color-grey-9);
+  background-color: var(--color-0);
 }
 
 .container {
